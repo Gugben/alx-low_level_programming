@@ -8,6 +8,7 @@
 
 int main(void)
 {
+	int i;
 	int letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
@@ -15,10 +16,16 @@ int main(void)
 		letter = tolower(letter);
 		putchar(letter);
 
-	}
-	for (int i = 65; i <= 90; i++)
+	if (letter == 'Z')
 	{
-		putchar("%c", i);
+		letter = 'A';
+
+	for (; letter <= 'Z'; letter++)
+	{
+		putchar(letter);
+	}
+	break;
+	}
 	}
 	putchar('\n');
 	return (0);
