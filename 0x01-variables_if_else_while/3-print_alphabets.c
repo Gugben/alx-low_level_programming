@@ -8,7 +8,6 @@
 
 int main(void)
 {
-	int i;
 	int letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
