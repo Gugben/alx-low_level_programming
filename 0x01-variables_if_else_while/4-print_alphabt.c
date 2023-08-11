@@ -16,7 +16,7 @@ int main(void)
 	{
 		continue;
 	}
-	
+
 		letter = tolower(letter);
 		putchar(letter);
 
