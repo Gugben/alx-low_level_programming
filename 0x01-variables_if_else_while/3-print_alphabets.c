@@ -15,7 +15,7 @@ int main(void)
 		letter = tolower(letter);
 		putchar(letter);
 
-	if (letter == 'Z')
+	if (letter == 'z')
 	{
 		letter = 'A';
 
