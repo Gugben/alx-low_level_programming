@@ -23,9 +23,9 @@ int main(void)
 	{
 	printf("c:%d ", c);
 
-	putchar(n);
-	putchar(b);
-	putchar(c);
+	printf(n);
+	printf(b);
+	printf(c);
 
 	if (n == 7 && b == 8 && c == 9)
 	
