@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+
 
 /**
  * main- function prints out 3 single digits number combinations
