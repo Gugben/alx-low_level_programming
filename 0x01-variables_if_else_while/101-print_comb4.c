@@ -21,11 +21,11 @@ int main(void)
 
 	for (c =  b + 1; c <= 9; c++)
 	{
-	printf("c:%d ", c);
+	printf("%d", n);
+	printf("%d", b);
+	printf("%d", c);
+	
 
-	printf(n);
-	printf(b);
-	printf(c);
 
 	if (n == 7 && b == 8 && c == 9)
 	
