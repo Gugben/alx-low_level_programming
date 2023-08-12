@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * main- function prints out lowercase of input word
+ * main- function prints out single digits number combinations
  * Return:0
  **/
 
@@ -14,7 +14,7 @@ int main(void)
 	{
 	int b = n + 1;
 
-	for (; b >= '9'; b++)
+	for (; b <= '9'; b++)
 	{
 
 	putchar(n);
