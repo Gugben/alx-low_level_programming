@@ -9,16 +9,15 @@
 int main(void)
 {
 	int n;
+	int c;
+	int b;
 
 	for (n = '0'; n <= '9'; n++)
 	{
-	int b = n + 1;
-
-	for (; b <= '9'; b++)
+	for (b = n + 1; b <= '9'; b++)
 	{
-	int c =  b + 1;
 
-	for (; c <= 9; c++)
+	for (c =  b + 1; c <= 9; c++)
 	{
 
 	putchar(n);
