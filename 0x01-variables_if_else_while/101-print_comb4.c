@@ -11,7 +11,7 @@ int main(void)
 	int n;
 	int c;
 	int b;
-	//printf("i:%d", n);
+	
 	for (n = '0'; n <= '9'; n++)
 	{
 	printf("n:%d ", n);
