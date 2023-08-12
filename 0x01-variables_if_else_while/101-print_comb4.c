@@ -13,12 +13,12 @@ int main(void)
 	int b;
 
 	for (n = '0'; n <= '9'; n++)
-	{
+	{printf(n);
 	for (b = n + 1; b <= '9'; b++)
-	{
+	{printf(b);
 
 	for (c =  b + 1; c <= 9; c++)
-	{
+	{printf(c);
 
 	putchar(n);
 	putchar(b);
