@@ -21,9 +21,9 @@ int main(void)
 
 	for (c =  b + 1; c <= 9; c++)
 	{
-	printf("%d", n);
-	printf("%d", b);
-	printf("%d", c);
+	putchar(n);
+	putchar(b);
+	putchar(c);
 	
 
 
