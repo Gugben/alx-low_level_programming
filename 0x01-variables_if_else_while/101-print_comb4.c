@@ -15,7 +15,7 @@ int main(void)
 	for (n = 0; n <= 9; n++)
 	{
 	/*printf("n:%d ", n);*/
-	for (b = n + 1; b <= '9'; b++)
+	for (b = n + 1; b <= 9; b++)
 	{
 	/*printf("b:%d ", b);*/
 
