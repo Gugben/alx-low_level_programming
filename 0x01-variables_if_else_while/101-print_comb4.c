@@ -23,7 +23,8 @@ int main(void)
 	{
 	putchar((n % 10) + '0');
 	putchar((b % 10) + '0');
-	putchar(c % 10) + '0');
+	putchar((c % 10) + '0');
+
 
 
 
