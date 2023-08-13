@@ -18,9 +18,9 @@ int main(void)
 	for (; b <= 99; b++)
 	{
  
-	putchar('%02d', b);
+	putchar(('%02d', b));
 	putchar(' ');
-	putchar('%02d', a);
+	putchar(('%02d', a));
 	
 	if (a == 98 && b == 99)
 	continue;
