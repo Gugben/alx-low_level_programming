@@ -9,27 +9,25 @@
 
 int main(void)
 {
-	int n;
+	int a;
 
-	for (n = 0; n <= 98; n++)
+	for (a = 0; a <= 98; a++)
 	{
-	int b = n + 1;
+	int b = a + 1;
 
 	for (; b <= 99; b++)
 	{
-
-	putchar((n / 10) + '0');
-	putchar((n % 10) + '0');
+ 
+	putchar('%02d', b);
 	putchar(' ');
-	putchar((b / 10) + '0');
-	putchar((b % 10) + '0');
-	if (n == 98 && b == 99)
+	putchar('%02d', a);
+	
+	if (a == 98 && b == 99)
 	continue;
 	putchar(',');
-	putchar(' ');
 	}
 	}
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }
