@@ -17,7 +17,7 @@ int main(void)
 
 	for (; b <= 99; b++)
 	{
- 
+
 	putchar((a / 10) + '10');
 	putchar((a % 10) + '10');
 	putchar(' ');
