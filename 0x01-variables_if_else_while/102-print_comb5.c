@@ -18,13 +18,19 @@ int main(void)
 	for (; b <= 99; b++)
 	{
  
-	putchar(('%02d', b));
+	putchar((a / 10) + '10');
+	putchar((a % 10) + '10');
 	putchar(' ');
-	putchar(('%02d', a));
-	
+
+	putchar((b / 10) + '10');
+	putchar((b % 10) + '10');
+
 	if (a == 98 && b == 99)
 	continue;
+
 	putchar(',');
+	putchar(' ');
+
 	}
 	}
 	}
