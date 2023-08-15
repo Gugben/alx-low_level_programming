@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_abs() - convert integer to absolute value
+ *_abs - convert integer to absolute value
  *@n: character to be verified
  *Return: return absolute value of n
 */
