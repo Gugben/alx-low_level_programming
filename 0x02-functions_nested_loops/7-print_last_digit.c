@@ -1,4 +1,4 @@
-#include "main.h"                         
+#include "main.h"
 /**
  * print_last_digit -  return last digit of n
  *@n: character to be processed
@@ -15,4 +15,4 @@ lastdigit *= -1;
 _putchar(lastdigit + '0');
 
 return (lastdigit);
-}          
+}
