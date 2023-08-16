@@ -23,7 +23,6 @@ _putchar((product % 10) + '0');
 else
 {
 _putchar(product + '0');
-_putchar(' ');
 }
 
 
@@ -31,6 +30,9 @@ if (j == 9)
 continue;
 
 _putchar(',');
+_putchar(' ');
+
+if (product <= 9)
 _putchar(' ');
 
 }
