@@ -1,6 +1,6 @@
 /**
  * _isupper - check if l is uppercase
- * @l: input alphabet to be checked
+ * @c: input alphabet to be checked
  * Return: 1 if its uppercase, 0 if not
 */
 
