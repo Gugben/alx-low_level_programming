@@ -8,6 +8,7 @@ int _isupper(int l)
 {
 	if (l >= 'a' && l <= 'z')
 		return (1);
-	else
-		return (0);
+
+	return (0);
+
 }
