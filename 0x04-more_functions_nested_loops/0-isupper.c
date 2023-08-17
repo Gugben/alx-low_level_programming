@@ -4,7 +4,7 @@
  * Return: 1 if its uppercase, 0 if not
 */
 
-int _isupper(int c)
+int _isupper(int l)
 {
 	if (l >= 'a' && l <= 'z')
 		return (1);
