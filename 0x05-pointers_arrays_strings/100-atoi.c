@@ -24,7 +24,7 @@ int _atoi(char *s)
 	while (i < lenght && f == 0)
 	{
 		if (s[i] == '-')
-			j++
+			j++;
 
 		if (s[i] >= '0' && s[i] <= '9')
 		{
