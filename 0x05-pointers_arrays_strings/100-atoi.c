@@ -7,17 +7,6 @@
  */
 
 
-
-int _atoi(char *s)
-{
-#include "main.h"
-
-/**
- * _atoi - converts a string to an integer
- * @s: string
- * Return: 1 or 0
- */
-
 int _atoi(char *s)
 {
 	int i, j, n, lenght, f, digit;
@@ -30,12 +19,12 @@ int _atoi(char *s)
 	digit = 0;
 
 	while (s[lenght] != '\0')
-		len++;
+		lenght++;
 
 	while (i < lenght && f == 0)
 	{
 		if (s[i] == '-')
-			++d;
+			j++
 
 		if (s[i] >= '0' && s[i] <= '9')
 		{
