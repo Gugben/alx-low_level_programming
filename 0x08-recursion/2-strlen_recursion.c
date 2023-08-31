@@ -3,7 +3,7 @@
 /**
  * _strlen_recursion - prints a string in reverse
  * @s: string to print
- *  return:return  string legnth
+ *  Return:return  string legnth
  */
 
 int _strlen_recursion(char *s)
