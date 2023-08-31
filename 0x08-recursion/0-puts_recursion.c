@@ -17,6 +17,6 @@ else
 {
 
 	_putchar('\n');
-	return;
+
 }
 }
