@@ -31,3 +31,5 @@ char *_strdup(char *str)
 	for (; str[j]; j++)
 		copy[j] = str[j];
 	return (copy);
+
+}
